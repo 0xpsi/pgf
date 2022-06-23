@@ -1,0 +1,14 @@
+GLFW is the primary library to use opengl with,
+
+~~~~~ For Linux ~~~~~
+  - download glfw source
+  - while in root dir, run
+  > cmake . && make
+  - libglfw3.a will be in glfw src/ dir, copy that to local project lib directory
+  - linking rule of thumb: more dependant libs should go first, simpler ones go last
+
+  
+~~~~ For Windows ~~~~
+  - Don't bother trying to compile GLFW, get binaries
+  - I have found TDM-GCC-64 to work as mingw compiler
+  
